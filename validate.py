@@ -14,10 +14,11 @@
 print "[i] Validate lib 1.0 loaded!"
 
 def validateMove(a,b,c,d,f,g,h,chessboard):
-    #Checking if the player is going on his chess
+    # Checking if the player is going on his chess
+    # Yeah I know that I can use OR (g=="♔" | g=="♖" etc...)
     if(h==0):
         if(g=="♔"):
-            return 16 #SCELTO DA IANNACCONE
+            return 16 
         if(g=="♖"):
             return 16
         if(g=="♘"):
